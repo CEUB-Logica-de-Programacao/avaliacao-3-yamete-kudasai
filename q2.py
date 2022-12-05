@@ -21,8 +21,6 @@
 # Para obter a nota máxima dessa questão, não deve-se utilizar nenhuma função pronta do Python.
 
 def q2(start, end):
-    start = 1
-    end = 16
     numeros = []
     for i in range (start, end + 1):
         x = i ** (1/2)
