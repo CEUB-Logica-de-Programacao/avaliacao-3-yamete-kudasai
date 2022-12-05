@@ -50,9 +50,10 @@
 # Isso porque é possível remover apenas um caractere para tornar a string válida.
 #
 # Para obter a nota máxima dessa questão, não deve-se utilizar nenhuma função pronta do Python.
-  def q5(s):
+def q5(s):
+  return False
    
-    return False
+
 
 
 if __name__ == '__main__':
