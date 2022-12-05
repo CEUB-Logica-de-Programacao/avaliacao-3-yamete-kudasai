@@ -30,7 +30,7 @@ def q4(s):
     s = ''
     if s == '':
         maiuscula = 0
-        return(maiuscula)
+        print(maiuscula)
     else:
         maiuscula = 1
         
@@ -38,7 +38,8 @@ def q4(s):
             if (i>='A'and i<='Z'): 
                 
                 maiuscula += 1   
-        return(maiuscula)
+        print(maiuscula)
+    return 0
 
 if __name__ == '__main__':
     print(q4('hexaVemEsseAno'))
