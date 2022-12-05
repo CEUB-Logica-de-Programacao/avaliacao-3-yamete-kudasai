@@ -32,16 +32,16 @@
 
 def q3(arr, d):
         
-trincas = []
-for i in arr:
-    s = []
-    if ((i + d) in arr):
-        if (i + 2*d) in arr:
-            s.append(i)
-            s.append(i+d)
-            s.append(i+(2*d))
-            trincas.append(s)
-return(len(trincas))
+        trincas = []
+        for i in arr:
+            s = []
+            if ((i + d) in arr):
+                if (i + 2*d) in arr:
+                    s.append(i)
+                    s.append(i+d)
+                    s.append(i+(2*d))
+                    trincas.append(s)
+        return(len(trincas))
 
 if __name__ == '__main__':
     print(q3([1, 2, 4, 5, 7, 8, 10], 3))
