@@ -32,7 +32,7 @@
 
 def q3(arr, d):
         
-trincas = ()
+trincas = []
 for i in arr:
     s = []
     if ((i + d) in arr):
