@@ -29,7 +29,7 @@
 def q4(s):
     if s == ' ':
         maiuscula = 0
-        print(maiuscula)
+        return(maiuscula)
     else:
         maiuscula = 1
         
@@ -37,8 +37,7 @@ def q4(s):
             if (i>='A'and i<='Z'): 
                 
                 maiuscula += 1   
-        print(maiuscula)
-    return 0
+        return(maiuscula)
 
 
 if __name__ == '__main__':
